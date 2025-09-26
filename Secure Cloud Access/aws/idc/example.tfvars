@@ -6,10 +6,11 @@ base_url = "https://example_tenant.sca.cyberark.cloud/api"
 
 # Policy Variables
 csp = "AWS"
+new_account = false
 roles = [{
   entity_id = "arn:aws:sso:::permissionSet/ssoins-1234ab1ab1234567/ps-1ab123456ab1a1a1"
-  entity_source_id = "297915674260"
-  organization_id = "969656756524"
+  entity_source_id = "123415671234"
+  organization_id = "123456751234"
   workspace_type = "account"
 }]
 identities = [{

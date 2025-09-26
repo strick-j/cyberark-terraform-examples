@@ -25,6 +25,12 @@ variable "csp" {
   type        = string
 }
 
+variable "new_account" {
+  description = "Is this new account"
+  type        = bool
+  default     = false  // True: Not supported for AWS IAM. Supported for AWS IDC, Azure, and GCP.
+}
+
 variable "roles" {
   description = "List of CloudRoles"
   type        = list(map(string))
